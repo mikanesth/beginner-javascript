@@ -1,14 +1,20 @@
 // Make a div
-
+let div = document.createElement('div');
 // add a class of wrapper to it
-
+div.classList.add('wrapper');
 // put it into the body
-
+document.body.appendChild(div);
 // make an unordered list
-
+let ul = `
+    <ul>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+    </ul>
+`;
 // add three list items with the words "one, two, three" in them
 // put that list into the above wrapper
-
+div.innerHTML = ul
 // create an image
 
 // set the source to an image
